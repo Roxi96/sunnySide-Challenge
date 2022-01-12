@@ -1,11 +1,22 @@
 .heroContainer{
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100vw;
+height: 100vh;
 }
 .title{
-
+    display: flex;
+    justify-content: center;
     font-family: Fraunces;
     font-weight: 700;
-    font-size: 56px;
+    font-size: 3.5vw;
     color: white;
-  
+    margin-top: 10%;
+}
+.arrow{
+    margin: 0 49%;
+    margin-top: 7.5%;
+    width: 30px;
+    height: 108px;
 }

@@ -18,12 +18,8 @@ function Hero() {
       }
     return (
         <header style={heroBg}>
-          <span className={classes.heroContainer}>
             <h1 className={classes.title}>WE ARE THE CREATIVES</h1>
-            <img src="../images/icon-arrow-down.svg" alt="" />
-          </span>
-            
-           
+            <img className={classes.arrow} src="../images/icon-arrow-down.svg" alt="" />
         </header>
     )
 }
