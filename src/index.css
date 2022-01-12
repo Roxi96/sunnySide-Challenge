@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@400;700&display=swap');
+:root{
+  --barlow: font-family: 'Barlow', sans-serif;
+  --fraunce: font-family: 'Fraunces', serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow';
+}
+
+
