@@ -12,7 +12,8 @@ height: 100vh;
     font-weight: 700;
     font-size: 3.5vw;
     color: white;
-    margin-top: 10%;
+    margin-top: 0%;
+    padding-top: 5%;
 }
 .arrow{
     margin: 0 49%;
