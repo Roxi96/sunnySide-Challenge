@@ -5,7 +5,7 @@ const heroBg={
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-    width: '99.1vw',
+    width: '100vw',
     height: '91.2vh',
   }
 
