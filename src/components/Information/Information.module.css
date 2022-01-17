@@ -95,8 +95,8 @@
    .box{
     display: flex;
     flex-direction: column-reverse;
-    height: auto;
-    width: auto;
+    height: 50%;
+    width: 100%;
    }
    .box2{
     display: flex;
@@ -107,16 +107,19 @@
    .boxChild1{
        text-align: center;
        margin-top: 2.8rem;
-       margin-bottom: 2.8rem;
+       padding-top: 10rem;
+       margin-bottom: 10rem;
    }
    .boxChild2{
-       text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
    }
    .title{
         font-size: 28px;
    }
    .text{
-     
        width: 60%;
    /* padding: auto 2.5rem; */
 }
