@@ -9,10 +9,9 @@ function Header() {
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Projects</a></li>
+                    <li> <button className={classes.btn}>Contact</button></li>
                 </ul>
-                <button className={classes.btn}>Contact</button>
             </div>
-            
         </div>
     )
 }
