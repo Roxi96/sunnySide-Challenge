@@ -1,4 +1,5 @@
 .box{
+    background-color: white;
     position: relative;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -7,6 +8,7 @@
     overflow: hidden;
 }
 .box2{
+    background-color: white;
     position: relative;
     display: grid;
     grid-template-columns: 50% 50%;

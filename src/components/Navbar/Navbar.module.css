@@ -1,40 +1,17 @@
-.container{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color: #3ebfff;
-    color: white;
-    padding: 1rem 3.2rem;
-}
-.container2{
-    text-decoration: none;
-    display: flex;
-    gap: 2.5rem;
-}
-.navbarElements{
-   display: flex;
-   gap: 2rem;
-   align-items: center;
-   list-style-type: none;
-   color: white;
-   font-weight: bold;
-}
-.navbarElements a{
-text-decoration: none;
-color: white;
-}
-.btn{
-    font-family: Fraunces;
-    color: #24303E;
-    text-transform: uppercase;
-    border: none;
-    background-color: white;
-    font-weight: 700;
-    border-radius: 28px;
-    padding: 0 2rem;
+.menuResponsive{
+    width: 100vw;
+    height: 800px;
+    background-color: chartreuse;
 }
 
-
+@media only screen and (max-width: 765px) {
+    .navbar {
+      display: none;
+    }
     
-
-    
+  }
+@media only screen and (min-width: 764px) {
+    .navbarMobile{
+        display: none;
+    }
+  }
