@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #3ebfff;
+    color: white;
+    padding: 1rem 3.2rem;
+}
+.container2{
+    text-decoration: none;
+    display: flex;
+    gap: 2.5rem;
+}
+.container2:hover{
+  cursor: pointer;
+}
+.navbarElements{
+   display: flex;
+   gap: 2rem;
+   align-items: center;
+   list-style-type: none;
+   color: white;
+   font-weight: bold;
+}
+.navbarElements a{
+text-decoration: none;
+color: white;
+}
+.navbarElements a:hover{
+    color: orange;
+}
+.btn{
+    font-family: Fraunces;
+    color: #24303E;
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    font-weight: 900;
+    border-radius: 28px;
+    padding: 1rem 2rem;
+}
+.btn:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.411);
+}
+/* ========== RESPONSIVE MENU ======== */
+.menuResponsive{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin: 2.2rem auto 0 auto;
+}  
+.menuBg{
+    background-color: #3ebfff;
+}
+.menuResponsive::before{
+    position: absolute;
+    top: -10%;
+    right: 0;
+    background: rgba(248, 80, 50, 1);
+  background:linear-gradient(to bottom right,transparent 50%,white 50%); 
+    content: '';
+    width: 75px;
+    height: 75px;
+}
+.navbarElements{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-right: 2.5rem;
+}
+.navbarElements a{
+    font-size: 22px;
+    text-decoration: none;
+    color: gray;
+    }
+    .btn{
+        font-family: Fraunces;
+        color: #24303E;
+        text-transform: uppercase;
+        border: none;
+        background-color: #FBD600;
+        font-weight: 900;
+        border-radius: 28px;
+        padding: 1rem 2rem;
+    }
+    .btn:hover{
+        color: white;
+        background-color: #c5a907;
+    }
+    

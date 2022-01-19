@@ -1,18 +1,28 @@
 import classes from './Navbar.module.css'
+import NavDesktop from './NavDesktop/NavDesktop'
+import {useState} from 'react'
+import NavMobile from './NavMobile/NavMobile';
 
 function Header() {
+
+    const [open, setOpen] = useState(false);
+
     return (
-        <div className={classes.container}>
-            <img style={{'width':'176px', 'height':'33px'}} src="../images/logo.svg" alt="" />
-            <div className={classes.container2}>
-                <ul className={classes.navbarElements}>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li> <button className={classes.btn}>Contact</button></li>
-                </ul>
-            </div>
-        </div>
+        <>  
+            
+              <div className={classes.navbar}>
+                    <NavDesktop />
+              </div>
+             {/* ============== MOBILE NAVEGATION ============== */}
+             <div 
+             className={classes.navbarMobile}
+             >
+                <NavMobile 
+                 
+                 />
+             </div>
+            
+        </>
     )
 }
 
